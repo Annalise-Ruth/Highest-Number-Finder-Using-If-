@@ -12,19 +12,21 @@ var_5 = int(input("Input your fifth number please: "))
 #Compare var_4 to var_5. If its greater print var_4
 #Else, print var_5
 def find_highest (var_1, var_2, var_3, var_4, var_5):
-    if var_1 > var_2:
-        if var_1 > var_3:
-            if var_1 > var_4:
-                if var_1 > var_5:
+    if var_1 >= var_2:
+        if var_1 >= var_3:
+            if var_1 >= var_4:
+                if var_1 >= var_5:
                     return var_1
-    elif var_2 > var_3:
-        if var_2 > var_4:
-            if var_2 > var_5:
+    if var_2 >= var_3:
+         if var_2 >= var_4:
+            if var_2 >= var_5:
                 return var_2
-    elif var_3 > var_4:
-        if var_3 > var_5:
+    if var_3 >= var_4:
+        if var_3 >= var_5:
             return var_3
-    else: 
+    if var_4 >= var_5:
+        return var_4
+    else:
         return var_5
 
 result = find_highest(var_1, var_2, var_3, var_4, var_5)   
