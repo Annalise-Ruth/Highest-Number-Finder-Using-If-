@@ -29,5 +29,3 @@ def find_highest (var_1, var_2, var_3, var_4, var_5):
 
 result = find_highest(var_1, var_2, var_3, var_4, var_5)   
 print (result)
-                
-
